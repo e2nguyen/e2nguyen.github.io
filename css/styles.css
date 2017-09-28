@@ -1,11 +1,14 @@
 
   body {
-    background-color: rgba(0, 0, 0, 0.93);
+    background-color: rgba(0,0,0,0.93);
   }
   
   #profile {
     float: left;
     width: 50%;
+    height: 95vh;
+
+    border-right: solid 1px rgba(3,43,55,0.7);
   }
 
   #info {
@@ -13,6 +16,12 @@
     width: 50%;
   }
 
-  img {
+  #profile_pic {
+    display: block;
     border-radius: 100%;
+    position: relative;
+    transform: translateY(50%);   /* center vertically in div */
+    margin: auto;                 /* center horizontally in div */
+    border-right: solid 9px rgba(3,43,55,0.7);
   }
+
