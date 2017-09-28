@@ -1,4 +1,18 @@
 
   body {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.93);
+  }
+  
+  #profile {
+    float: left;
+    width: 50%;
+  }
+
+  #info {
+    float: right;
+    width: 50%;
+  }
+
+  img {
+    border-radius: 100%;
   }
