@@ -22,6 +22,6 @@
     position: relative;
     transform: translateY(50%);   /* center vertically in div */
     margin: auto;                 /* center horizontally in div */
-    border-right: solid 9px rgba(3,43,55,0.7);
+    border: solid 9px rgba(3,43,55,0.7);
   }
 
