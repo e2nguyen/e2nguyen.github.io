@@ -15,7 +15,7 @@
   }
 
   #info {
-    height: 95vh;
+    height: 200vh;
     color: rgba(200,200,200,0.7);
   }
 
@@ -33,7 +33,6 @@
   p {
     padding: 4% 0 1% 0;
     text-align: center;
-    font: 14px 'Karla', sans-serif;
   }
 
   hr {
@@ -45,18 +44,34 @@
     padding-top: 2%;
     text-align: left;
     margin: 0 40%;
+  }
+
+  p, ul, a {
     font: 14px 'Karla', sans-serif;
   }
 
+  img {
+    display: block;
+  }
 
   #profile_pic {
-    display: block;
     border-radius: 100%;
     position: relative;
     transform: translateY(50%);   /* center vertically in div */
     margin: auto;                 /* center horizontally in div */
- /*   border: solid 9px rgba(3,43,55,0.7);
- */   border: solid 9px rgba(200,200,200,0.4);
+    border: solid 9px rgba(200,200,200,0.4);
+  }
+
+  #Concept_A {
+    display: block;
+    outline: none;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  #sample_pic2 {
+    margin: 0 auto;
+    border: solid 3px rgba(200,200,200,0.4);
   }
 
 /* -------- phones ---------- */
