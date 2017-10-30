@@ -15,7 +15,7 @@
   }
 
   #info {
-    height: 280vh;
+    height: 260vh;
     color: rgba(200,200,200,0.7);
   }
 
@@ -77,6 +77,11 @@
 
   #sample_pic1 {
     width: 40%;
+  }
+
+  #contactLinks {
+    padding-top: 8px;
+    line-height: 2.5em;
   }
 
 
