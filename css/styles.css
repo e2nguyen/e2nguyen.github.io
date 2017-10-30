@@ -15,7 +15,7 @@
   }
 
   #info {
-    height: 200vh;
+    height: 280vh;
     color: rgba(200,200,200,0.7);
   }
 
@@ -62,17 +62,23 @@
     border: solid 9px rgba(200,200,200,0.4);
   }
 
-  #Concept_A {
+  #Concept_A, #Snake {
     display: block;
     outline: none;
     text-align: center;
-    padding-bottom: 20px;
+    text-decoration: none;
   }
 
-  #sample_pic2 {
-    margin: 0 auto;
+
+  #sample_pic2, #sample_pic1 {
+    margin: 20px auto;
     border: solid 3px rgba(200,200,200,0.4);
   }
+
+  #sample_pic1 {
+    width: 40%;
+  }
+
 
 /* -------- phones ---------- */
 /* vertical */
