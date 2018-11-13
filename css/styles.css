@@ -56,6 +56,7 @@
 
   #profile_pic {
     border-radius: 100%;
+    width: 300px;
     position: relative;
     transform: translateY(50%);   /* center vertically in div */
     margin: auto;                 /* center horizontally in div */
