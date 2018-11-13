@@ -11,7 +11,7 @@
   }
   
   #profile {
-    height: 75vh;
+    height: 70vh;
   }
 
   #info {
@@ -56,9 +56,9 @@
 
   #profile_pic {
     border-radius: 100%;
-    width: 300px;
+    width: 290px;
     position: relative;
-    transform: translateY(50%);   /* center vertically in div */
+    transform: translateY(30%);   /* center vertically in div */
     margin: auto;                 /* center horizontally in div */
     border: solid 9px rgba(200,200,200,0.4);
   }
